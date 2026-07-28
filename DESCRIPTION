@@ -5,9 +5,15 @@ Date: 2026-07-27
 Authors@R: c(
     person("Apollon D.M.T.", "HEGBE", 
            email = "apollonrossi@gmail.com.org", 
-           role = c("aut", "cre")),
-    person("International Society for Fungal Conservation", 
-           role = "cph")
+           role = c("aut", "cre", "Mai")),
+           Institution: c("Laboratory of Tropical Mycology and Plant-Fungus-Soil Interaction", "International Society for Fungal Conservation")
+    person("Nourou S. Yorou",
+           email = "n.s.yorou@gmail.com ",
+           role = "cph",
+           Institution: c("Laboratory of Tropical Mycology and Plant-Fungus-Soil Interaction"))
+    person("David W. Minter",
+           role = "cph",
+           Institution: c("Laboratory of Tropical Mycology and Plant-Fungus-Soil Interaction"))
   )
 Description: A Shiny-based toolkit for deterministic keyword searches (Fungi, 
     Animals, Plants) with full audit logs, and optional AI-assisted (DeepSeek) 
