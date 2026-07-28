@@ -30,5 +30,5 @@ VignetteBuilder: knitr
 Suggests:
     knitr,
     rmarkdown
-URL: https://github.com/your-org/MicheliR
-BugReports: https://github.com/your-org/MicheliR/issues
+URL: https://github.com/DATAVERSE01/MicheliR
+BugReports: https://github.com/DATAVERSE01/MicheliR/issues
