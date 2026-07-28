@@ -4,15 +4,15 @@ Version: 1.0.0
 Date: 2026-07-27
 Authors@R: c(
     person("Apollon D.M.T.", "HEGBE", 
-           email = "apollonrossi@gmail.com.org", 
-           role = c("aut", "cre", "Mai")),
-           Institution: c("Laboratory of Tropical Mycology and Plant-Fungus-Soil Interaction", "International Society for Fungal Conservation")
-    person("Nourou S. Yorou",
+           email = "apollonrossi@gmail.com", 
+           role = c("aut", "cre"),
+           comment = c(Institution = "Laboratory of Tropical Mycology and Plant-Fungus-Soil Interaction / International Society for Fungal Conservation")),
+    person("Nourou S.", "Yorou",
            role = "cph",
-           Institution: c("Laboratory of Tropical Mycology and Plant-Fungus-Soil Interaction"))
-    person("David W. Minter",
+           comment = c(Institution = "Laboratory of Tropical Mycology and Plant-Fungus-Soil Interaction")),
+    person("David W.", "Minter",
            role = "cph",
-           Institution: c("International Society for Fungal Conservation"))
+           comment = c(Institution = "International Society for Fungal Conservation"))
   )
 Description: A Shiny-based toolkit for deterministic keyword searches (Fungi, 
     Animals, Plants) with full audit logs, and optional AI-assisted (DeepSeek) 
@@ -45,4 +45,3 @@ Suggests:
 Config/testthat/edition: 3
 URL: https://github.com/DATAVERSE01/MicheliR
 BugReports: https://github.com/DATAVERSE01/MicheliR/issues
-
