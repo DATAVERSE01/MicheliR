@@ -1,0 +1,20 @@
+# Auto-detect text files and normalize to LF
+* text=auto
+
+# R files
+*.R text eol=lf
+*.Rmd text eol=lf
+*.Rd text eol=lf
+*.Rproj text eol=lf
+
+# Documentation
+*.md text eol=lf
+*.txt text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.pdf binary
+*.rds binary

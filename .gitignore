@@ -1,0 +1,10 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+Thumbs.db
+*.Rproj
+*.tar.gz
+*.zip
+inst/doc
