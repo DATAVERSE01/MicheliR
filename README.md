@@ -135,7 +135,7 @@ If you want to use the AI evaluation feature, you need a DeepSeek API key:
 
 The AI evaluation is **optional** – you can still perform deterministic keyword searches without an API key.
 
-### Pricing
+### Pricing (may change, you need check)
 
 DeepSeek is **pay‑as‑you‑go**:
 
