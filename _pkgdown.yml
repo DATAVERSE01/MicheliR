@@ -1,0 +1,14 @@
+template:
+  bootstrap: 5
+
+url: https://DATAVERSE01.github.io/MicheliR/
+
+navbar:
+  structure:
+    left:  [home, reference, articles, news]
+    right: [github]
+  components:
+    github:
+      icon: fa-github
+      href: https://github.com/DATAVERSE01/MicheliR
+      
