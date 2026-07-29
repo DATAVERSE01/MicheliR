@@ -25,50 +25,53 @@ server <- function(input, output, session) {
 
   # ---- About modal ----
   shiny::observeEvent(input$about_btn, {
-    shiny::showModal(
-      shiny::modalDialog(
-        title = shiny::tags$h2("🍄 MicheliR: An R Toolkit for the Micheli Guide to Fungal Conservation Policy Gap Assessment"),
-        shiny::tags$hr(),
-        shiny::tags$p(
-          shiny::tags$strong("Version:"), " v1.0.0",
-          shiny::br(),
-          shiny::tags$strong("Authors:"), " Apollon D.M.T. HEGBE / International Society for Fungal Conservation (ISFC)",
-          shiny::br(),
-          shiny::tags$strong("Copyright:"), " © 2026 ISFC. All rights reserved.",
-          shiny::br(),
-          shiny::tags$strong("License:"), " MIT (see LICENSE file)"
-        ),
-        shiny::tags$hr(),
-        shiny::tags$p(
-          shiny::tags$strong("Description:"),
-          "This Shiny application automates the keyword-search and evaluation workflow ",
-          "for the Micheli Guide to Fungal Conservation (CBD Evaluation Form). ",
-          "It performs deterministic keyword counting with full audit logs, ",
-          "and optionally uses the DeepSeek API to filter false positives and answer ",
-          "the 5 key questions of the Micheli Guide."
-        ),
-        shiny::tags$hr(),
-        shiny::tags$p(
-          shiny::tags$strong("Citation:"),
-          "If you use this tool in your research, please cite it as:",
-          shiny::tags$br(),
-          shiny::tags$em(
-            "HEGBE, A. D. M. T. (2026). MicheliR: An R Toolkit for the Micheli Guide to Fungal Conservation Policy Gap Assessment (Version 1.0.0). ",
-            "International Society for Fungal Conservation."
-          )
-        ),
-        shiny::tags$hr(),
-        shiny::tags$p(
-          shiny::tags$strong("Acknowledgements:"),
-          "This tool was developed to support the evaluation of National Biodiversity ",
-          "Strategy and Action Plans (NBSAPs) and CBD National Reports under the ",
-          "Micheli Guide framework."
-        ),
-        easyClose = TRUE,
-        footer = shiny::modalButton("Close")
-      )
+  shiny::showModal(
+    shiny::modalDialog(
+      title = shiny::tags$h2("🍄 MicheliR: An R Toolkit for the Micheli Guide to Fungal Conservation Policy Gap Assessment"),
+      shiny::tags$hr(),
+      shiny::tags$p(
+        shiny::tags$strong("Version:"), " v1.0.0",
+        shiny::br(),
+        shiny::tags$strong("Authors:"), 
+        " Apollon D.M.T. HEGBE (Laboratory of Tropical Mycology and Plant‑Fungus‑Soil Interaction / International Society for Fungal Conservation), ",
+        "Nourou S. Yorou (Laboratory of Tropical Mycology and Plant‑Fungus‑Soil Interaction), ",
+        "David W. Minter (International Society for Fungal Conservation)",
+        shiny::br(),
+        shiny::tags$strong("Copyright:"), " © 2026 International Society for Fungal Conservation. All rights reserved.",
+        shiny::br(),
+        shiny::tags$strong("License:"), " MIT (see LICENSE file)"
+      ),
+      shiny::tags$hr(),
+      shiny::tags$p(
+        shiny::tags$strong("Description:"),
+        "This Shiny application automates the keyword-search and evaluation workflow ",
+        "for the Micheli Guide to Fungal Conservation (CBD Evaluation Form). ",
+        "It performs deterministic keyword counting with full audit logs, ",
+        "and optionally uses the DeepSeek API to filter false positives and answer ",
+        "the 5 key questions of the Micheli Guide."
+      ),
+      shiny::tags$hr(),
+      shiny::tags$p(
+        shiny::tags$strong("Citation:"),
+        "If you use this tool in your research, please cite it as:",
+        shiny::tags$br(),
+        shiny::tags$em(
+          "HEGBE, A.D.M.T., Yorou, N.S., & Minter, D.W. (2026). MicheliR: An R Toolkit for the Micheli Guide to Fungal Conservation Policy Gap Assessment (Version 1.0.0). ",
+          "International Society for Fungal Conservation."
+        )
+      ),
+      shiny::tags$hr(),
+      shiny::tags$p(
+        shiny::tags$strong("Acknowledgements:"),
+        "This tool was developed to support the evaluation of National Biodiversity ",
+        "Strategy and Action Plans (NBSAPs) and CBD National Reports under the ",
+        "Micheli Guide framework."
+      ),
+      easyClose = TRUE,
+      footer = shiny::modalButton("Close")
     )
-  })
+  )
+})
 
   # Read file
   shiny::observeEvent(input$file, {
