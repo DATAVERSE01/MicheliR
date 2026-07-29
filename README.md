@@ -2,7 +2,9 @@
 
 **An R Toolkit for the Micheli Guide to Fungal Conservation Policy Gap Assessment**
 
+[![R-CMD-check](https://github.com/DATAVERSE01/MicheliR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/DATAVERSE01/MicheliR/actions/workflows/R-CMD-check.yaml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub stars](https://img.shields.io/github/stars/DATAVERSE01/MicheliR.svg?style=social)](https://github.com/DATAVERSE01/MicheliR/stargazers)
 
 ---
 
